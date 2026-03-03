@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+   <head> 
+         <meta charset="UTF-8"> 
+         <title>World Map Image Map</title> 
+  </head> 
+<body> 
+           <h1>gregorio marathon</h1> 
+           
+            <img src="Photos/aa.jpg" alt="Worldmap" usemap="#worldmap">
+
+<!-- Image map with clickable areas -->
+<map name="worldmap">
+
+<!-- 1--> 
+<area shape="rect" 
+   coords="178,257,225,313" 
+   href="Photos/1.jpg"
+   alt="start " 
+   target="_blank"> 
+
+<!-- 2--> 
+<area shape="rect" 
+coords="301,254,358,300" 
+href="Photos/2.jpg"
+alt="start " 
+target="_blank"> 
+
+<!-- 3--> 
+<area shape="rect" 
+coords="376,260,425,306" 
+href="Photos/3.jpg" 
+alt="start " 
+target="_blank"> 
+
+
+
+<!-- 4--> 
+<area shape="rect" 
+coords="441,315,484,354" 
+href="Photos/4.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 5--> 
+<area shape="rect" 
+coords="508,330,551,371" 
+href="Photos/5.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 6--> 
+<area shape="rect" 
+coords="764,322,810,371" 
+href="Photos/6.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 7--> 
+<area shape="rect" 
+coords="689,366,740,416" 
+href="Photos/7.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 8--> 
+<area shape="rect" 
+coords="610,389,660,432" 
+href="Photos/8.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 9--> 
+<area shape="rect" 
+coords="465,389,580,443" 
+href="Photos/9.jpg" 
+alt="start " 
+target="_blank"> 
+
+
+<!-- 10--> 
+<area shape="rect" 
+coords="330,350,391,410" 
+href="Photos/10.jpg" 
+alt="start " 
+target="_blank"> 
+
+<!-- 11--> 
+<area shape="rect" 
+coords="236,301,289,352" 
+href="Photos/11.jpg" 
+alt="start " 
+target="_blank">  
+
+<!-- 12--> 
+<area shape="rect" 
+coords="376,315,431,370" 
+href="Photos/12.jpg" 
+alt="start " 
+target="_blank">  
+
+</map> 
+</body> 
+</html>
+
+
