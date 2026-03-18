@@ -77,7 +77,7 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 <section class="hero">
 <h1>Gregorio Maratón</h1>
 <h2>Centro Educativo Gregorio Marañón</h2>
-<p>El 24 de marzo celebramos nuestra carrera solidaria.<br>Deporte, empatía y acción unidos.</p>
+<p>El 23 de marzo celebramos nuestra carrera solidaria.<br>Deporte, empatía y acción unidos.</p>
 
 <!-- CONTADOR -->
 <div class="countdown" id="countdown">
@@ -98,19 +98,6 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 </div>
 </section>
 
-<!-- DISTANCIAS -->
-<section class="section">
-<div class="box right">
-<h2 class="title">Distancias</h2>
-<p>Dependiendo del curso correrás diferentes kilómetros:</p>
-<div class="km">
-<div>1º ESO<br><b>2 km</b></div>
-<div>2º ESO<br><b>3 km</b></div>
-<div>3º ESO<br><b>4 km</b></div>
-</div>
-</div>
-</section>
-
 <!-- DORSAL -->
 <section class="section">
 <div class="box">
@@ -118,7 +105,9 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 <p>Para participar necesitarás tu dorsal. Este año cuesta <b>1€</b>.</p>
 <p>Con tu dorsal participarás en un <b>sorteo especial el día de la carrera</b>.</p>
 <p>⚠ Es muy importante <b>no perder tu dorsal</b>.</p>
-<div class="dorsal">ESPACIO PARA PONER LA FOTO DEL DORSAL</div>
+<div class="dorsal"><img src="Photos/Dorsal.jpg" alt="dorsal" width="400" height="300">
+</div>
+
 </div>
 </section>
 
@@ -128,6 +117,7 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 <h2 class="title">Proyecto internacional</h2>
 <p>Forma parte de un proyecto de <b>empatía y acción contra el hambre</b>.</p>
 <p>Colaboramos con estudiantes de <b>Francia</b> y <b>Grecia</b> para reflexionar sobre cómo los jóvenes pueden ayudar a mejorar el mundo.</p>
+<a class="button" href="videoGM.mov" target="_blank">Ver video</a>
 </div>
 </section>
 
@@ -138,10 +128,25 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 <div class="advice">
 <h3>Consejos para la carrera:</h3>
 <ul>
+
 <li>Llega con tiempo y haz un buen calentamiento.</li>
 <li>Hidrátate antes y durante la carrera.</li>
 <li>Disfruta del recorrido y apoya a tus compañeros.</li>
+<a class="button" href="recursoshumanos.html" target="_blank">Ver recursos</a>
 </ul>
+</div>
+</div>
+</section>
+<!-- DISTANCIAS -->
+
+<section class="section">
+<div class="box right">
+<h2 class="title">Distancias</h2>
+<p>Dependiendo del curso correrás diferentes kilómetros:</p>
+<div class="km">
+<div>1º ESO<br><b>2 km/2 vueltas</b></div>
+<div>2º ESO<br><b>3 km/3 vueltas</b></div>
+<div>3º ESO<br><b>4 km/4 vueltas</b></div>
 </div>
 </div>
 </section>
@@ -149,18 +154,21 @@ footer{background:linear-gradient(135deg,var(--primary),var(--secondary));color:
 <!-- RECORRIDO -->
 <section class="section">
 <div class="box">
-<h2 class="title">Recorrido</h2>
+<h2 class="title">Recorridos</h2>
 <p>Aquí puedes ver el recorrido de la carrera.</p>
-<a class="button" href="PON_AQUI_EL_LINK_DEL_RECORRIDO" target="_blank">Ver recorrido</a>
+<a class="button" href="circuito.html" target="_blank">Ver recorridos</a>
 </div>
 </section>
 
+
+
 <footer>
 <p>Centro Educativo Gregorio Marañón</p>
-<p>Gregorio Maratón • 24 de marzo</p>
+<p>Gregorio Maratón • 23 de marzo</p>
 </footer>
 
 <script>
+
 // ANIMACION CAJAS
 function reveal(){
 let boxes = document.querySelectorAll(".box");
@@ -174,7 +182,7 @@ if(revealTop < windowHeight - revealPoint){box.classList.add("show");}
 window.addEventListener("scroll",reveal);
 
 // CONTADOR
-const countdownDate = new Date("March 24, 2026 09:00:00").getTime();
+const countdownDate = new Date("March 23, 2026 09:00:00").getTime();
 const countdownFunction = setInterval(function(){
 let now = new Date().getTime();
 let distance = countdownDate - now;
